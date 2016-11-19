@@ -1,0 +1,288 @@
+.mixpanel-platform-body {
+    font-family: Source Sans Pro,sans-serif;
+    padding: 15px;
+}
+
+.report-width-wrapper {
+	max-width: 1471px;
+	min-width: 951px;
+}
+
+.section {
+	padding: 20px;
+    margin-bottom: 40px;
+    background: #fbfcfd;
+    border-radius: 4px;
+    color: #747d94;
+    -webkit-box-shadow: 0px 1px 6px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 6px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 6px -3px rgba(0,0,0,0.75);
+}
+
+.section-header {
+    position: relative;
+    /* background: #dfe2ec; */
+    height: 30px;
+    font-size: 1.2rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 30px;
+    color: #6a748a;
+    z-index: 2;
+    border-radius: 2px 2px 0 0;
+    font-family: Source Sans Pro,sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.55em;
+}
+
+.section-header:after {
+    width: 20%;
+    height: 0.1em;
+    background-color: #dfe2ec;
+    content: '';
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.8em;
+    margin-bottom: 1.2em;
+}
+
+/* Section-specific CSS */
+
+.general-metrics-list {
+    width: 80%;
+    margin: 0px auto 30px auto;    
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 25px;
+}
+
+.general-metric {
+	display: inline-block;
+	text-align: center;
+}
+
+.meter-subtext {
+    text-align: center;
+    font-size: 1.45em;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.meter-subtext-green {
+    color: #0d920b;
+}
+
+.meter-subtext-red {
+    color: #b73434;
+}
+
+.meter-subtext-arrow {
+    height: 20px;
+    vertical-align: text-top;
+}
+
+/* */
+.segmentation-graphs {
+    width: 60%;
+    padding: 35px;
+    margin: 0px auto 30px auto;
+}
+/* */
+
+/* Attribution Styling */
+.attribution-type {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.attribution-graph {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.attribution-platform-selector {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto 30px auto;
+}
+
+.attribution-button {
+    color: white;
+    background-color: #748394;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+    transition: all 0.35s;
+}
+
+.attribution-button:hover {
+    background-color: #37485a;
+    cursor: pointer;
+}
+/* End Attribution Styling */
+
+/* Content Score Styling */
+.content-scoring {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-score {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    padding-bottom: 15px;
+}
+
+.content-score > h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 1.9em;
+    font-weight: 500;
+}
+
+.content-score-table-header {
+    border-bottom: 1px solid #dfe2ec;
+}
+
+.score-logo {
+    max-height: 45px;
+    max-width: 60px;
+}
+
+.engagement-score {
+    border-top: solid 1px #dfe2ec;
+}
+/* End Content Score Styling */
+
+/* Flows styling */
+.conversion-flows {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flow-wrapper {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.flow-wrapper > div > table {
+    font-size: 1.55em;
+    margin: 0 auto;
+}
+
+.sorting-arrow {
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
+.sorting-arrow:hover {
+    cursor: pointer;
+}
+/* End Flows styling */
+
+/* Demographics Styling */
+.demographics {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+.demographics-table-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.demographics-table {
+    display: inline-block;
+}
+
+.demographics-table > h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 1.9em;
+    font-weight: 500;
+}
+
+.demographics-table > h3:after {
+    width: 15%;
+    height: 0.08em;
+    background-color: #dfe2ec;
+    content: '';
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.8em;
+    margin-bottom: 1em;
+}
+
+.demographics-table-header {
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-right: 13px;
+    padding-left: 13px;
+    padding-bottom: 8px;
+}
+
+.table-top-teams {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #dfe2ec;
+}
+
+.table-team-logo {
+    max-height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+}
+
+.table-field {
+    padding-right: 10px;
+    font-size: 1.5em;
+}
+
+.table-data {
+    font-size: 1.45em;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.data-bold {
+    font-size: 1.55em;
+    font-weight: 700;
+}
+
+.team-at {
+    font-size: 2.1em;
+    text-align: right;
+}
+
+
+/* End Demographics Styling */
+
+/* Media queries to re-proportion sections based on viewport width */
+@media (max-width: 1100px) {
+    .general-metrics-list {
+        width: 90%;
+    }
+
+    .segmentation-graphs {
+        width: 80%;
+    }
+}
