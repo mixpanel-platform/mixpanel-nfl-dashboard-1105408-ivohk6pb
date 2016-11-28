@@ -57,12 +57,13 @@ class ReportHeader extends React.Component {
 		};
 
 		var imageStyle = {
-			height: '100%',
+			height: '100px',
+			display: 'inline-block',
 			paddingLeft: '28px'
 		};
 
 		var dateStyle = {
-			display: 'inline-block',
+		    display: 'inline-block',
 		    height: '100%',
 		    lineHeight: '4em',
 		    verticalAlign: 'top',
