@@ -58,7 +58,6 @@ class ReportHeader extends React.Component {
 
 		var imageStyle = {
 			height: '100%',
-			display: 'inline-block',
 			paddingLeft: '28px'
 		};
 
