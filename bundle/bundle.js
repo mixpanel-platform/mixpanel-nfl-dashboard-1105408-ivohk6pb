@@ -22883,7 +22883,8 @@
 				};
 	
 				var imageStyle = {
-					height: '100%',
+					height: '100px',
+					display: 'inline-block',
 					paddingLeft: '28px'
 				};
 	
